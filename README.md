@@ -54,3 +54,51 @@ To configure and verify the Java development environment, write a simple Java pr
 
 ### Learning Outcome
 I practised creating, compiling and executing a Java program. I also learned how to personalise program output and organise source code within a GitHub repository.
+
+## Week 3: Variables, Data Types, Expressions and Input/Output
+
+### Objectives
+- Declare and initialize Java variables.
+- Use appropriate primitive and reference data types.
+- Perform arithmetic calculations using Java operators.
+- Read keyboard input using the Scanner class.
+- Display formatted output.
+- Compile, test and submit Java programs using GitHub.
+
+### Programs
+
+**1. SimpleCalculator.java**
+- Accepts two numbers from the user.
+- Allows the user to select an arithmetic operator (`+`, `-`, `*`, `/`).
+- Performs the selected calculation using a switch statement.
+- Handles division by zero and invalid operators.
+
+**2. AverageCalculator.java**
+- Accepts a student's name and three examination scores.
+- Calculates the total score.
+- Calculates the average score.
+- Displays the student's details and results using formatted output.
+
+**3. ItemCost.java**
+- Calculates the total cost of items using quantity and unit price.
+
+### How to Run
+
+Open a terminal in the `week03` directory.
+
+**Simple Calculator**
+- `javac SimpleCalculator.java`
+- `java SimpleCalculator`
+
+**Average Calculator**
+- `javac AverageCalculator.java`
+- `java AverageCalculator`
+
+**Item Cost**
+- `javac ItemCost.java`
+- `java ItemCost`
+
+### Testing
+- Test each program with different valid inputs.
+- Verify that calculated results are correct.
+- Test boundary conditions and invalid inputs where relevant.
